@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    margin: 5px;
+    height: 10000px;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    line-height: 10px;
+    font-size: large;
+    padding-top: 5px;
+    background-image: url(images/tvaLogo.png);
+    background-repeat: round;
+}
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: white;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+::-webkit-scrollbar {
+    width: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background-image: url(images/tvaTimeline-2.png);
+    background-size: contain;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(246, 101, 4, 0.75);
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(246, 101, 4, 0.95);
+}
